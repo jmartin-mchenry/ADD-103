@@ -1,0 +1,32 @@
+body {
+    /* colors! */
+    background-color: red;
+    color: blue;
+
+    /* font-family uses a fallback system, if Courier New fails to load, it'll use Courier, and if that also fails, then
+    it'll use the browser's default monospace font */
+    font-family: 'Courier New', Courier, monospace;
+
+    background-image: url("background.svg");
+    /* not using background-size or background-position, i want it to tile */
+}
+
+h1 {
+    color: #ffa500;
+}
+
+h2 {
+    /* why does one have to be hex AND the other has to be rgb??? why??? that doesn't add any uglyness from the user's
+    perspective, just makes the css inconsistent */
+    color: rgb(255, 255, 0);
+}
+
+blockquote {
+    background-color: rgba(132, 0, 255, 0.5);
+    border-left: 4px dotted orange;
+    /* padding: top, leftright, bottom */
+    padding: 10px 8px 4px;
+
+    /* why not */
+    margin-top: 100px;
+}
