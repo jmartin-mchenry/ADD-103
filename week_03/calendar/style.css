@@ -1,0 +1,31 @@
+body {
+    background-color: #7c009b;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    table-layout: fixed;
+
+    width: 100%;
+    color: white;
+}
+
+th,
+td {
+    border: 1px solid #dddddd;
+}
+
+th {
+    background-color: black;
+}
+
+td {
+    text-align: center;
+    height: 75px;
+}
+
+td.birthday {
+    color: gold;
+    background-color: black;
+}

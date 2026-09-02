@@ -1,0 +1,7 @@
+/* why are we using a class selector if all the images on the page will have the class??? */
+.gallery-pic {
+    width: 30%;
+
+    border: 2px solid gray;
+    border-radius: 8px;
+}
