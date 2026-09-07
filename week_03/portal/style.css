@@ -16,7 +16,7 @@ body {
 }
 
 a {
-    padding: 5px;
+    padding: 8px;
     background-color: #7c009b;
     color: white;
     border-radius: 5px;
@@ -29,7 +29,7 @@ a:hover {
 }
 
 footer {
-    height: 50px;
+    height: 100px;
     padding-top: 15px;
     margin-top: 10px;
     background-color: lightgray;
