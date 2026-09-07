@@ -3,7 +3,7 @@ body {
     font-size: larger;
 }
 
-/* why are we using a class selector if all the images on the page will have the class??? */
+/* display: block and margin: 10px auto gives us a vertical scroll of images with the images centered horizontally */
 .gallery-pic {
     align-items: center;
     margin: 10px auto;
@@ -15,6 +15,7 @@ body {
     display: block;
 }
 
+/* padding, background color, and border radius gives the appearance of a button. */
 a {
     padding: 8px;
     background-color: #7c009b;
@@ -28,6 +29,9 @@ a:hover {
     background-color: #530068;
 }
 
+/* For some reason, text element padding (like the ones for links) doesn't seem to actually increase the size of the
+element, so I just increased the top padding of the footer to get around it. there's likely a more correct
+display: whatever; i can apply to the links to get it working properly but this workaround works fine enough. */
 footer {
     height: 100px;
     padding-top: 15px;
