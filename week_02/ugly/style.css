@@ -30,3 +30,13 @@ blockquote {
     /* why not */
     margin-top: 100px;
 }
+
+footer {
+    height: 50px;
+    padding-top: 15px;
+    margin-top: 10px;
+    background-color: lightgray;
+    color: black;
+
+    text-align: center;
+}

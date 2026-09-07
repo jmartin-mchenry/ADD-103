@@ -7,25 +7,41 @@ table {
     border-collapse: collapse;
     table-layout: fixed;
 
-    width: 100%;
     color: white;
+    width: 100%;
 }
 
 th,
 td {
     border: 1px solid #dddddd;
+    padding: 10px;
 }
 
-th {
-    background-color: black;
+th,
+.birthday {
+    background-color: #530068;
 }
 
 td {
     text-align: center;
-    height: 75px;
+    /* cake image causes text to get pushed up if content is center aligned */
+    vertical-align: top;
+    height: 130px;
 }
 
 td.birthday {
     color: gold;
-    background-color: black;
+}
+
+img {
+    height: 64px;
+}
+
+footer {
+    height: 50px;
+    margin-top: 10px;
+    background-color: lightgray;
+    color: black;
+
+    text-align: center;
 }
