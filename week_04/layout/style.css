@@ -1,0 +1,65 @@
+:root {
+    --primary: #7c009b;
+    --secondary: #530068;
+    --text: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary);
+    color: var(--text);
+}
+
+header h1 {
+    text-shadow: 3px 3px 2px var(--secondary);
+}
+
+.column-card {
+    display: inline-block;
+    /* 48% doesn't seem small enough for whatever reason, subtracting 3px to make it fit
+    ideally other css features would be used to get side-by-side elements but this assignment requires
+    the inline-block method */
+    width: calc(48% - 3px);
+    border: 1px solid var(--secondary);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 1%;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dashed var(--text);
+    cursor: help;
+
+    .tooltiptext {
+        visibility: hidden;
+        width: 180px;
+        background-color: var(--secondary);
+        color: var(--text);
+        text-align: center;
+        border-radius: 6px;
+        padding: 8px;
+        position: absolute;
+        bottom: 125%;
+        left: 50%;
+        margin-left: -90px;
+    }
+
+    &:hover .tooltiptext {
+        visibility: visible;
+    }
+}
+
+footer {
+    height: 100px;
+    padding-top: 15px;
+    margin-top: 10px;
+    background-color: lightgray;
+    color: black;
+
+    text-align: center;
+}

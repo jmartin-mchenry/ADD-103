@@ -38,7 +38,8 @@ img {
 }
 
 footer {
-    height: 50px;
+    height: 100px;
+    padding-top: 15px;
     margin-top: 10px;
     background-color: lightgray;
     color: black;
