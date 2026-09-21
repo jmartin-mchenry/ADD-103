@@ -2,6 +2,8 @@
     --background-primary: #7c009b;
     --background-secondary: #530068;
     --text: #ffffff;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -11,16 +13,28 @@ body {
 .hero {
     display: flex;
     align-items: center;
+    background-color: var(--background-primary);
+    margin-bottom: 20px;
 }
 
 .hero-text {
     flex-basis: 50%;
-    text-align: center;
+    padding: 10px;
 }
 
 .hero-img {
     flex-basis: 50%;
-    text-align: center;
+    text-align: right;
+}
+
+.columns {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.column {
+    width: 30%;
 }
 
 footer {
