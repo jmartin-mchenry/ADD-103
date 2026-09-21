@@ -1,0 +1,48 @@
+:root {
+    --primary: #7c009b;
+    --secondary: #530068;
+    --text: #ffffff;
+}
+
+h1 {
+    text-align: center;
+}
+
+.gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--primary);
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.card {
+    width: 350px;
+    color: var(--text);
+    background-color: var(--secondary);
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid purple;
+    border-radius: 10px;
+
+    h3 {
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+footer {
+    height: 100px;
+    padding-top: 15px;
+    margin-top: 10px;
+    background-color: lightgray;
+    color: black;
+
+    text-align: center;
+}
