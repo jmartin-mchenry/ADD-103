@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+/* :root {} */
+
+body {
+    margin: 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: cyan;
+}
+
+td {
+    padding: 0px 10px;
+}
+
+@media (min-width: 700px) {
+    .card {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    td {
+        text-align: left;
+    }
+
+    p {
+        padding: 10px;
+    }
+}
